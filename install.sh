@@ -35,6 +35,7 @@ wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/trojan-
 opkg install ip-full ipset lsof fping && opkg install *.ipk
 chmod +x /usr/bin/tjt
 chmod +x /usr/bin/autorekonek-tjt
+chmod +x /usr/bin/trojan
 rm -r ~/*.ipk
 rm -r ~/install.sh
 mkdir -p ~/akun/
