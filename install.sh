@@ -29,9 +29,9 @@ else
 echo -e "version anda tidak terdeteksi!"
 exit
 fi
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/tjt-tunnel/main/tjt.sh" -O /usr/bin/tjt
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/tjt-tunnel/main/trojan" -O /usr/bin/trojan
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/tjt-tunnel/main/autorekonek-tjt.sh" -O /usr/bin/autorekonek-tjt
+wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/trojan-tunnel/main/tjt.sh" -O /usr/bin/tjt
+wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/trojan-tunnel/main/trojan" -O /usr/bin/trojan
+wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/trojan-tunnel/main/autorekonek-tjt.sh" -O /usr/bin/autorekonek-tjt
 opkg install ip-full ipset lsof fping && opkg install *.ipk
 chmod +x /usr/bin/tjt
 chmod +x /usr/bin/autorekonek-tjt
