@@ -25,8 +25,8 @@ echo "Masukkan port"
 read -p "default port: $port2 : " port
 [ -z "${port}" ] && port="$port2"
 
-echo "Masukkan password" 
-read -p "default password: $pass2 : " pass
+echo "Masukkan code" 
+read -p "default code: $pass2 : " pass
 [ -z "${pass}" ] && pass="$pass2"
 
 echo "Masukkan bug" 
