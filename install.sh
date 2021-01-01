@@ -43,7 +43,7 @@ touch ~/akun/tjt.txt
 sleep 2
 echo "install selesai"
 echo "untuk memulai tools silahkan jalankan perintah 'tjt'"
-echo "silahkan reboot terlebih dahulu"
+#echo "silahkan reboot terlebih dahulu"
 
 
 				
